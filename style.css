@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-.header {
+.header,
+.footer {
     background-color: #1f2937;
 }
 
@@ -140,4 +141,12 @@ img {
 }
 #third-text{
     color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 25px 0px;
 }
